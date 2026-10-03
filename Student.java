@@ -9,7 +9,7 @@ public class Student {
     public Student(String name, String studentId, int score) { // 这里是构造方法
         this.name = name;
         this.studentId = studentId;
-        this.score = score; // 这里是在给参数赋值
+        this.setScore(score); // 这里是在给参数赋值
     }
     public String getName() { // 提供一个信息的读取窗口
         return name;
